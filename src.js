@@ -11,13 +11,13 @@ import { TesseractWorker } from 'tesseract.js'
     const response = await worker.recognize('/fake.png')
     console.log('response', response)
   } catch (err) {
-    console.err('error', err)
+    console.error('error', err)
   }
 
   try {
     const response = await worker.recognize('/testocr.png')
     console.log('response', response)
   } catch (err) {
-    console.err('error', err)
+    console.error('error', err)
   }
 })()
