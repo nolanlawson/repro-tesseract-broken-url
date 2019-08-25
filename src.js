@@ -9,7 +9,7 @@ import { TesseractWorker } from 'tesseract.js'
 
   try {
     const response = await worker.recognize('/fake.png')
-    console.log('resonse', response)
+    console.log('response', response)
   } catch (err) {
     console.err('error', err)
   }
